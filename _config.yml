@@ -1,7 +1,8 @@
 # Setup
 name:         Project or Site name (Architect Theme)
 tagline:      A responsive theme for your project on GitHub Pages
-baseurl:      ""
+url: "https://ybebee91.github.io" # the base hostname & protocol for your site
+baseurl: "" 
 locale:       "en"
 
 # Gems
