@@ -1,5 +1,6 @@
 # Setup
-name:         Project or Site name (Architect Theme)
+
+name:         개인 기록용 Blog
 tagline:      A responsive theme for your project on GitHub Pages
 url: "https://ybebee9.github.io" # the base hostname & protocol for your site
 baseurl: "" 
