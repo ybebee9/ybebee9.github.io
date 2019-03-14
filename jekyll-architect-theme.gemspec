@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Pietro F. Menna"]
   spec.email         = ["pietromenna@yahoo.com"]
 
-  spec.summary       = %q{java, Machine-Learning, math .. study..etc}
+  spec.summary       = %q{1111java, Machine-Learning, math .. study..etc}
   spec.license       = "MIT"
 
   spec.add_development_dependency "jekyll", "~> 3.2"
