@@ -617,7 +617,7 @@ form {
   margin-bottom: 0;
   font-family: 'Atomy-bold';
   font-size: 2.5em;
-  font-weight: normal;
+  font-weight: bold;
   color: #474747;
   text-indent: 6px;
   letter-spacing: -1px;
@@ -665,7 +665,7 @@ form {
 #main-content h4 {
   margin-bottom: 8px;
   font-family: 'Atomy-Bold';
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
   color: #474747;
   text-indent: 3px;
