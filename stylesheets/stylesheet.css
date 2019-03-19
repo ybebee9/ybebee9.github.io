@@ -865,13 +865,13 @@ dl dd {
 @media only screen and (max-width: 479px) { }
 
 
-.div-main-content {
+.div-main {
 margin-top: 3%;
 background-color:#fff;
 box-shadow: 0 0 0 0, 0 6px 12px rgba(34,34,34,0.1);
 }
 
-.div-main-content .div-main-text{
+.div-main .div-main-content{
  width: 90%;
  padding-left: 5%;
  padding-top: 4%;
