@@ -8,7 +8,7 @@
 @import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Atomy-Bold.woff');
 
 html {
-  font-family: sans-serif; /* 1 */
+  font-family: 'Atomy-bold'; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
   -ms-text-size-adjust: 100%; /* 2 */
 }
