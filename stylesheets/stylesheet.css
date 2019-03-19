@@ -878,3 +878,7 @@ box-shadow: 0 0 0 0, 0 6px 12px rgba(34,34,34,0.1);
  padding-bottom: 6%;
 
 }
+
+.div-main .div-main-content .div-main-text{
+ padding-left: 4%;
+}
