@@ -6,6 +6,6 @@ title: KimYeEun's Devlog
 <div id="home">
     {% for post in site.posts %}
       <h1>{{ post.title }}</h1>
-      <h4>{{ post.content }}</h4>
+      {{ post.content }}
     {% endfor %}
 </div>
