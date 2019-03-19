@@ -6,8 +6,10 @@ title: KimYeEun's Devlog
 <div id="home">
     {% for post in site.posts %}
       <div class="div-main-content">
+      <div class="div-main-text">
       <h1>{{ post.title }}</h1>
       <h4>{{ post.content }}</h4>
+      </div>
       </div>
     {% endfor %}
 </div>
