@@ -866,9 +866,15 @@ dl dd {
 
 
 .div-main-content {
+margin-top: 3%;
 background-color:#fff;
 box-shadow: 0 0 0 0, 0 6px 12px rgba(34,34,34,0.1);
 }
 
 .div-main-content .div-main-text{
+ width: 90%;
+ padding-left: 5%;
+ padding-top: 4%;
+ padding-bottom: 6%;
+
 }
