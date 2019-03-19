@@ -1,1 +1,48 @@
+---
+layout: post
+title:  "1일차 Rinux 수업 정리"
+date:   2019-03-16 
+categories : unknown
+---
+
+
+Apache -> NginX
+MySQL -> MariaDB
+
+애뮬레이터를 이용할수 있는 도구 3가지
+1. Packet Tracer
+2. GNS3
+3. Boson
+
+
+가상화에서 많이 쓰임 
+VMware
+Cytrix
+
+
+망관리는 VLAN으로 ! 
+물리적인 위치랑은 상관없이 논리적인 위치로 망관리! 
+
+Routing porotocol -> rip, ospf, eigrp
+Routed protocol - > ip, appletalk, ipx
+
+라우터는 이웃의 정보만 알고있음.
+자기의 인접한 라우터 정보만 가지고있음
+
+16개 
+
+Ip 하면 끝의 숫자 .1 .2 .3 붙여야하는데
+네트워크하면 끝에 0인 그 자체를 말하는거임
+
+Fail safe 
+
+Sudo : 일시적 권한변경
+Su : 
+#으로 바뀌면 관리자
+$이면 일반 사용자
+관리자 : root
+
+R(4)W(2)X(1)
+
+
 
