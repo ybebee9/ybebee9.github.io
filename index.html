@@ -5,10 +5,12 @@ title: KimYeEun's Devlog
 
 <div id="home">
     {% for post in site.posts %}
+      <div class="div-main">
       <div class="div-main-content">
-      <div class="div-main-text">
       <h1>{{ post.title }}</h1>
+      <div class="div-main-text">
       {{ post.content }}
+      </div>
       </div>
       </div>
     {% endfor %}
