@@ -476,6 +476,14 @@ header h2 {
   letter-spacing: 0;
 }
 
+.header-inner {
+  text-align: center;
+  max-width: 950px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .inner {
   max-width: 950px;
   margin-top: 50px;
