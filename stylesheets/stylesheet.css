@@ -457,7 +457,6 @@ header {
 }
 
 header h1 {
-  width: 650px;
   margin-top: 0;
   margin-bottom: 0.2em;
   font-size: 72px;
@@ -468,7 +467,6 @@ header h1 {
 }
 
 header h2 {
-  width: 540px;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 26px;
