@@ -7,6 +7,8 @@
  */
 @import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Atomy-Bold.woff');
 
+@import "theme/navbar";
+
 html {
   font-family: 'Atomy-bold'; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
