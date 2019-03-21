@@ -7,7 +7,12 @@
  */
 @import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Atomy-Bold.woff');
 
+
+@import "bootstrap/variables";
+@import "theme/variables";
+@import "bootstrap/navbar";
 @import "theme/navbar";
+
 
 html {
   font-family: 'Atomy-bold'; /* 1 */
