@@ -5,9 +5,10 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+@import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Atomy-Bold.woff');
 
 html {
-  font-family: sans-serif; /* 1 */
+  font-family: 'Atomy-bold'; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
   -ms-text-size-adjust: 100%; /* 2 */
 }
@@ -428,8 +429,8 @@ th {
 
 /* LAYOUT STYLES */
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 15px;
+  font-family: 'Atomy-bold';
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
   color: #666;
@@ -456,18 +457,16 @@ header {
 }
 
 header h1 {
-  width: 540px;
   margin-top: 0;
   margin-bottom: 0.2em;
   font-size: 72px;
-  font-weight: normal;
+  font-weight: bolder;
   line-height: 1;
   color: #fff;
   letter-spacing: -1px;
 }
 
 header h2 {
-  width: 540px;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 26px;
@@ -477,10 +476,19 @@ header h2 {
   letter-spacing: 0;
 }
 
+.header-inner {
+  text-align: center;
+  max-width: 950px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .inner {
-  position: relative;
-  width: 940px;
-  margin: 0 auto;
+  max-width: 950px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #content-wrapper {
@@ -489,8 +497,7 @@ header h2 {
 }
 
 #main-content {
-  float: left;
-  width: 690px;
+
 }
 
 #main-content img {
@@ -562,13 +569,14 @@ pre {
   padding: 20px;
   overflow: auto;
   text-shadow: none;
-  background: #fff;
-  border: solid 1px #f2f2f2;
+  background: #272822;
+  border: solid 1px #dbdbdb;
+  border-radius : 3px; 
 }
 pre code {
   padding: 0;
-  color: #2879d0;
-  background-color: #fff;
+  color: #f8f8f2;
+  background-color: #272822;
   border: none;
 }
 
@@ -614,9 +622,9 @@ form {
 #main-content h1 {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 2.8em;
-  font-weight: normal;
+  font-family: 'Atomy-bold';
+  font-size: 40px;
+  font-weight: bold;
   color: #474747;
   text-indent: 6px;
   letter-spacing: -1px;
@@ -631,7 +639,7 @@ form {
 
 #main-content h2 {
   margin-bottom: 8px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Atomy-Bold';
   font-size: 22px;
   font-weight: bold;
   color: #474747;
@@ -647,7 +655,7 @@ form {
 #main-content h3 {
   margin-top: 24px;
   margin-bottom: 8px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Atomy-Bold';
   font-size: 18px;
   font-weight: bold;
   color: #474747;
@@ -663,9 +671,9 @@ form {
 
 #main-content h4 {
   margin-bottom: 8px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 15px;
-  font-weight: bold;
+  font-family: 'Atomy-Bold';
+  font-size: 20px;
+  font-weight: normal;
   color: #474747;
   text-indent: 3px;
 }
@@ -673,7 +681,6 @@ form {
 h4:before {
   padding-right: 0.3em;
   margin-left: -2.8em;
-  content: "////";
   color: #9ddcff;
 }
 
@@ -862,3 +869,28 @@ dl dd {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { }
+
+
+.div-main {
+margin-top: 3%;
+background-color:#fff;
+box-shadow: 0 0 0 0, 0 6px 12px rgba(34,34,34,0.1);
+}
+
+.div-main .div-main-content{
+ width: 90%;
+ padding-left: 5%;
+ padding-top: 4%;
+ padding-bottom: 6%;
+
+}
+
+.div-main .div-main-content .div-main-text{
+ padding-top: 4%;
+}
+
+.profile-image{
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+}
