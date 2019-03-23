@@ -7,7 +7,7 @@ categories : unknown
 
 ---
 
-### 실습1) Virtual host: 하나의 도메인으로 여러 웹 사이트를 운영하는 기법
+## 실습1) Virtual host: 하나의 도메인으로 여러 웹 사이트를 운영하는 기법
 ---
 ::필요조건 - 호스트가 하나거나 도메인이 하나인 경우에 여러 웹 사이트를 운영할 수 있다. (IP-based, Name-based, Port-based 기법 사용)::
 
@@ -51,7 +51,7 @@ categories : unknown
 
 
 ---
-### .htpasswd .htaccess
+## .htpasswd .htaccess
 ---
 > htpasswd -c /etc/httpd/conf/.htpasswd centos
 > htpasswd /etc/httpd/conf/.htpasswd ubuntu
