@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Linux_2 수업"
+title:  "2일차 Linux 수업정리"
 date:   2019-03-23 
 categories : unknown
 ---
@@ -11,7 +11,7 @@ categories : unknown
 ---
 ::필요조건 - 호스트가 하나거나 도메인이 하나인 경우에 여러 웹 사이트를 운영할 수 있다. (IP-based, Name-based, Port-based 기법 사용)::
 
-	1. IP-based 실습
+*IP-based 실습*
 > <VirtualHost 192.168.100.200:80>
 >  ServerAdmin admin@localhost
 >  DocumentRoot /var/www/xyz
@@ -27,8 +27,8 @@ categories : unknown
 >                    128 ->        "
 >                    127 ->        "
 	
-	2. Name-based 실습
-	3. Port-based 실습
+*Name-based 실습*
+*Port-based 실습*
 
 	* pid 관리 중요
 	* 랜섬웨어 관련 change root(fake!)
