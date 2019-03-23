@@ -1,0 +1,50 @@
+---
+
+# 실습1) Virtual host: 하나의 도메인으로 여러 웹 사이트를 운영하는 기법
+---
+::필요조건 - 호스트가 하나거나 도메인이 하나인 경우에 여러 웹 사이트를 운영할 수 있다. (IP-based, Name-based, Port-based 기법 사용)::
+
+	1. IP-based 실습
+> 	#cat httpd.conf
+> 	grep -v ^# httpd.conf
+>  cp httpd.conf httpd.conf.bak
+>  ls
+>  vi httpd.conf
+>  :set nu 입력 후 엔터 
+>  ServerName www.kahn.edu
+>  192.168.100.129 www.kahn.edu centos1.kahn.edu www centos1
+> nano /etc/hosts 
+> echo "<h1>KAHN.EDU web side</h1>" > /var/www/html/index.html
+> 
+> <VirtualHost 192.168.100.200:80>
+>  ServerAdmin admin@localhost
+>  DocumentRoot /var/www/xyz
+>  DirectoryIndex index.html
+> <Directory /var/www/xyz>
+>  Order allow,deny
+>  Allow from all
+> </Directory>
+> </VirtualHost>
+
+::Round Robin, Load Balancing, Fault Tolerance::
+> http://192.168.100.129 -> kahn.edu homepage
+>                    128 ->        "
+>                    127 ->        "
+	
+	2. Name-based 실습
+	3. Port-based 실습
+
+	* pid 관리 중요
+	* 랜섬웨어 관련 change root(fake!)
+	* sudo는 일시적으로 관리자로 변경
+	* su - root 에서 - 붙여야 본인 디렉토리로 이동함
+	* selinux는 미 국방부에서 만든것, 고급보안임 (set uid.. sticky bit..)
+	* 설정을 다 했는데 인터넷 안되면 nslookup 명령어 
+	* echo는 저장된 설정이 있으면 보여줘라 or 파일 만드는 명령어 
+
+
+---
+# .htpasswd .htaccess
+---
+> htpasswd -c /etc/httpd/conf/.htpasswd centos
+> htpasswd /etc/httpd/conf/.htpasswd ubuntu
