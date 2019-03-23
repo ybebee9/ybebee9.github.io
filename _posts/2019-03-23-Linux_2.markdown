@@ -1,4 +1,12 @@
 ---
+layout: post
+title:  "Linux_2 수업"
+date:   2019-03-23 
+categories : unknown
+---
+
+
+---
 
 # 실습1) Virtual host: 하나의 도메인으로 여러 웹 사이트를 운영하는 기법
 ---
