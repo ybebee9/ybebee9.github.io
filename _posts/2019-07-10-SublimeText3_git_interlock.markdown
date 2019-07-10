@@ -184,10 +184,10 @@ sublime text가 생소한 분들도 있지않을까 싶어 설치부터 캡쳐�
 ![img33](./images/post/sublimetext3-git/33.png)
 * clone URL을 입력한다.  
 `자 중요한 대목이 나온다 집중!`  
-본인의 URL은 https://github.com/ybebee9/ybebee9.github.io.git 이다.  
-URL사이에 아이디와 비밀번호 그리고 구분을 위한 @를 입력해줘야다.  
-https://아이디:비밀번호@github.com/ybebee9/ybebee9.github.io.git 이런식으로.  
-정리하면 clone https://아이디:비밀번호@github.com/ybebee9/ybebee9.github.io.git 입력 후 Enter.
+본인의 URL은 `https://github.com/ybebee9/ybebee9.github.io.git` 이다.  
+URL사이에 아이디와 비밀번호 그리고 구분을 위한 @를 입력해줘야한다.  
+`https://아이디:비밀번호@github.com/ybebee9/ybebee9.github.io.git` 이런식으로.  
+정리하면 `clone https://아이디:비밀번호@github.com/ybebee9/ybebee9.github.io.git` 입력 후 Enter.
   
   
   
