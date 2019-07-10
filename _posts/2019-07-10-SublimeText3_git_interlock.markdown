@@ -62,7 +62,7 @@ sublime text가 생소한 분들도 있지않을까 싶어 설치부터 캡쳐�
   
   
 ![img09](./images/post/sublimetext3-git/09.png)
-* [PackgeControl 다운로드](https://packagecontrol.io/installation)링크를 클릭하여 홈페이지에 접속한다. 설치를 위한 코드가 공개되어있다. 빨간 네모 칸안에 있는 코드를 복사해서 Sublime Text Console창에 입력하면 간단하게 Package Control설치가 가능하다. 본인 버전에 맞는 탭을 클릭하여 코드를 복사한다.
+* [PackgeControl 다운로드](https://packagecontrol.io/installation)를  클릭하여 홈페이지에 접속한다. 설치를 위한 코드가 공개되어있다. 빨간 네모 칸안에 있는 코드를 복사해서 Sublime Text Console창에 입력하면 간단하게 Package Control설치가 가능하다. 본인 버전에 맞는 탭을 클릭하여 코드를 복사한다.
   
   
   
@@ -182,7 +182,12 @@ sublime text가 생소한 분들도 있지않을까 싶어 설치부터 캡쳐�
   
   
 ![img33](./images/post/sublimetext3-git/33.png)
-* clone URL을 입력한다. ::*자 중요한 대목이 나온다 집중!*:: 본인의 URL은 https://github.com/ybebee9/ybebee9.github.io.git 이다. URL사이에 아이디와 비밀번호 그리고 구분을 위한 @를 입력해줘야한다. https://아이디:비밀번호@github.com/ybebee9/ybebee9.github.io.git 이런식으로. 정리하면 clone https://아이디:비밀번호@github.com/ybebee9/ybebee9.github.io.git 입력 후 Enter.
+* clone URL을 입력한다.  
+::*자 중요한 대목이 나온다 집중!*::  
+본인의 URL은 https://github.com/ybebee9/ybebee9.github.io.git 이다.  
+URL사이에 아이디와 비밀번호 그리고 구분을 위한 @를 입력해줘야다.  
+https://아이디:비밀번호@github.com/ybebee9/ybebee9.github.io.git 이런식으로.  
+정리하면 clone https://아이디:비밀번호@github.com/ybebee9/ybebee9.github.io.git 입력 후 Enter.
   
   
   
@@ -212,7 +217,8 @@ sublime text가 생소한 분들도 있지않을까 싶어 설치부터 캡쳐�
   
   
 ![img39](./images/post/sublimetext3-git/39.png)
-* https://confluence.atlassian.com/bitbucketserver/installing-and-upgrading-git-776640906.html 링크를 클릭하여 본인 OS에 맞는 설치파일을 다운로드 하면된다. 본인은 Window 사용자니.. 캡쳐화면에서 보이는 것과 같이 Windows 밑에 있는 Git website 클릭.
+* [Git Update 	파일 다운로드](https://confluence.atlassian.com/bitbucketserver/installing-and-upgrading-git-776640906.html)를 클릭하여 본인 OS에 맞는 설치파일을 다운로드 하면된다.  
+본인은 Window 사용자니.. 캡쳐화면에서 보이는 것과 같이 Windows 밑에 있는 Git website 클릭.
   
   
   
