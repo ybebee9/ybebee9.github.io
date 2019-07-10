@@ -1,4 +1,12 @@
-# Sublime Text 3 - Git 연동하기(feat.2틀간의 삽질)
+
+---
+layout: post
+title:  "Sublime Text 3 - Git 연동하기(feat.2틀간의 삽"
+date:   2019-03-16 
+categories : unknown
+---
+
+
 개인적으로 Sublime Text를 좋아한다. 
 웹서핑중 sublime text와 Git을 연동해서 사용하시는 분들이 있는걸 발견하고 나도 해보자 싶어 해봤다. 2틀간의 삽질을 했지만 과정이 공부가 많이 됐다. 
 나중에 다시 볼 기회가 생기면 보기위한 기록용 포스팅.. sublime text가 생소한 분들도 있지않을까 싶어 설치부터 캡쳐했다.. 음 시작!
