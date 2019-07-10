@@ -4,36 +4,29 @@ title:  "Sublime Text 3 - Git 연동하기(feat.이틀간의 삽질)"
 date:   2019-03-16 
 categories : unknown
 ---
-  
-  
-  
-  
----
+<br>
+<br>
+<br>  
+***
 개인적으로 Sublime Text를 좋아한다.  
 웹서핑중 sublime text와 Git을 연동해서 사용하시는 분들이 있는걸 발견하고 나도 해보자 싶어 해봤다.  
 이틀간의 삽질을 했지만 과정이 공부가 많이 됐다.  
 나중에 다시 볼 기회가 생기면 보기위한 기록용 포스팅..  
-sublime text가 생소한 분들도 있지않을까 싶어 설치부터 캡쳐했다.. 음 시작!
----
+sublime text가 생소한 분들도 있지않을까 싶어 설치부터 캡쳐했다.. 음 시작!  
+***
 <br>
 <br>
 <br>
-  
-  
-  
 ![imgp01](./images/post/sublimetext3-git/01.png)
 * Google에 *Sublime Text 3* 를 검색한다. Download - Sublime Text 클릭  
 <br>
 <br>
-  
-  
-  
+<br>
 ![img 02](./images/post/sublimetext3-git/02.png)
 * Sublime Text Download 페이지로 이동된다. 본인 OS에 맞는걸 클릭하면 된다. 난 윈도우 사용자이므로 .. Windows 64 bit 클릭
-  
-  
-  
-
+<br>
+<br>
+<br>
 ![img03](./images/post/sublimetext3-git/03.png)
 * 설치파일이 다운로드되면 더블클릭하여 실행한다. 실행하시겠습니까? 라는 창이 뜨면 실행(R) 클릭
   
