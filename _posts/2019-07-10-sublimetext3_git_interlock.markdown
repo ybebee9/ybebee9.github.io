@@ -4,7 +4,7 @@
 나중에 다시 볼 기회가 생기면 보기위한 기록용 포스팅.. sublime text가 생소한 분들도 있지않을까 싶어 설치부터 캡쳐했다.. 음 시작!
 
 
-img 01 
+![imgp01](./images/post/sublimetext3-git/01.png)
 * Google에 Sublime Text 3 를 검색한다. Download - Sublime Text 클릭
 
 img 02
