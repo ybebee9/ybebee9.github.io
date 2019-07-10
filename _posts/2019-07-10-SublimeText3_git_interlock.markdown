@@ -24,7 +24,8 @@ sublime text가 생소한 분들도 있지않을까 싶어 설치부터 캡쳐�
   
   
 ![img 02](./images/post/sublimetext3-git/02.png)
-* Sublime Text Download 페이지로 이동된다. 본인 OS에 맞는걸 클릭하면 된다. 난 윈도우 사용자이므로 .. Windows 64 bit 클릭
+* Sublime Text Download 페이지로 이동된다. 본인 OS에 맞는걸 클릭하면 된다.  
+본인은 윈도우 사용자이므로 .. Windows 64 bit 클릭  
   
   
   
