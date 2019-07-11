@@ -912,11 +912,11 @@ box-shadow: 0 0 0 0, 0 6px 12px rgba(34,34,34,0.1);
 /* 2019.07.11 add */
 ::-moz-selection { /* Code for Firefox */
   color: #ffffff;
-  background: #ff9dd5;
+  background: #8565fc;
 }
 
 /* 2019.07.11 add  */
 ::selection {
   color: #ffffff;
-  background: #ff9dd5;
+  background: #8565fc;
 }
