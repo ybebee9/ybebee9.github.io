@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sublime Text 3 - Git 연동하기(feat.이틀간의 삽질)"
-date:   2019-03-16 
+date:   2019-07-10
 categories : unknown
 ---
 <br>
