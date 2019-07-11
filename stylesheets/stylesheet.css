@@ -568,11 +568,12 @@ code, pre {
 
 code {
   padding: 3px 5px;
-  background-color: #f8f8f8;
+  background-color: #ebeff2;
   margin: 0 2px;
   border-radius: 2px;
   white-space: nowrap;
-  color: #2879d0;
+  color: #8565fc;
+  font-size: 85%;
 }
 
 pre {
