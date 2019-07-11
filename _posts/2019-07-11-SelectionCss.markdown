@@ -15,19 +15,19 @@ categories : unknown
 <br>
 <br>
 <br>
-![imgp01](./images/post/SelectionCss/01.png)  
+![img01](./images/post/selectionCss/01.png)  
 * 적용 전 드래그 색  
 <br>
 <br>
 <br>
 <br>
-![imgp02](./images/post/SelectionCss/02.png)  
+![img02](./images/post/selectionCss/02.png)  
 * W3School에서 발견한 Selection 예제  
 <br>
 <br>
 <br>
 <br>
-![imgp03](./images/post/SelectionCss/03.png)  
+![img03](./images/post/selectionCss/03.png)  
 * 적용 완료. 넘나 예뿌당  
 <br>
 <br>
