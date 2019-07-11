@@ -1,9 +1,0 @@
----
-layout: post
-title:  "WebFont로더"
-date:   2019-06-21 
-categories : unknown
----
-
-구글에서 웹서핑중 소스보기를 클릭했는데 WebFont.load 하는 함수를 보게되었다. 
-좀 더 자세하게 찾아보고 포스트 할 예정
