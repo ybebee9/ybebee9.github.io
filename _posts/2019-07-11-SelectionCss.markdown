@@ -22,7 +22,7 @@ categories : unknown
 <br>
 <br>
 ![img02](./images/post/selectionCss/02.png)  
-* W3School에서 발견한 Selection 예제  
+* [W3School에서 발견한 Selection 예제](https://www.w3schools.com/howto/howto_css_text_selection.asp)
 <br>
 <br>
 <br>
