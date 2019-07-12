@@ -1,0 +1,6 @@
+---
+layout: post
+title:  "깃(Git) 블로그 Category 추가하는 과정 포스팅"
+date:   2019-07-11
+categories : GitCustomizing
+---
