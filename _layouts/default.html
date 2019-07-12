@@ -29,6 +29,17 @@
       <div class="inner clearfix">
         <section class="section-category">
           <h1>Category</h1>
+          <nav>
+            <ul>
+              {% for item in site.categories %}
+                <li>
+                  <a href="#{{ item | first | slugify }}">
+                    {{ item | first }}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </nav>
         </section>
         <section class="section-post" id="main-content">
           

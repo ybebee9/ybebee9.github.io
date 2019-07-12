@@ -2,7 +2,8 @@
 layout: post
 title:  "1일차 Linux 수업 정리"
 date:   2019-03-16 
-categories : Linux
+categories:
+- Linux
 ---
 
 
