@@ -491,7 +491,7 @@ header h2 {
 }
 
 .inner {
-  max-width: 950px;
+  max-width: 1400px;
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -909,14 +909,30 @@ box-shadow: 0 0 0 0, 0 6px 12px rgba(34,34,34,0.1);
   border-radius: 50%;
 }
 
-/* 2019.07.11 add */
+/* 2019.07.11 ybebee9 add */
 ::-moz-selection { /* Code for Firefox */
   color: #ffffff;
   background: #8565fc;
 }
 
-/* 2019.07.11 add  */
+/* 2019.07.11 ybebee9 add  */
 ::selection {
   color: #ffffff;
   background: #8565fc;
+}
+
+/* 2019.07.12 ybebee9 add*/
+.section-category{
+  max-width: 20%;
+  background-color: gray;
+  float: left;
+  margin-top:3%;
+  position: sticky;
+  top:0;
+}
+
+/* 2019.07.12 ybebee9 add */
+.section-post{
+  max-width: 80%;
+  float: right;
 }
