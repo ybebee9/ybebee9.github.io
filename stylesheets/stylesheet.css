@@ -924,7 +924,6 @@ box-shadow: 0 0 0 0, 0 6px 12px rgba(34,34,34,0.1);
 /* 2019.07.12 ybebee9 add*/
 .section-category{
   max-width: 20%;
-  background-color: gray;
   float: left;
   margin-top:3%;
   position: sticky;
