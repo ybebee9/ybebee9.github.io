@@ -2,8 +2,7 @@
 layout: post
 title:  "2일차 Linux 수업정리"
 date:   2019-03-23 
-categories:
-- Linux
+categories: Linux
 ---
 
 ---
