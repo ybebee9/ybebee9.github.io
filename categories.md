@@ -1,5 +1,4 @@
 ---
 title: Categories
-layout: default
-categoryVal: true
+layout: categories
 ---
