@@ -33,7 +33,7 @@
             <ul>
               {% for item in site.categories %}
                 <li class="li-category">
-                  <a href="{{ site.baseurl }}categories/">
+                  <a href="{{ site.baseurl }}{% link categories.md %}">
                     {{ item | first }}
                   </a>
                 </li>
