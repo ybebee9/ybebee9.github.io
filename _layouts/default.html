@@ -41,12 +41,17 @@
             </ul>
           </nav>
         </section>
+        {% if page.category-val == true %}
+        <section class="section-category-list">
+         {{ content }}
+        </section>
+        {% elsif%}
         <section class="section-post" id="main-content">
           
           {{ content }}
 
         </section>
-
+        {% endif %} 
       </div>
     </div>
 
