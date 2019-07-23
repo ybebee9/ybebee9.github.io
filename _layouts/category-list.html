@@ -3,15 +3,11 @@ layout: default
 ---
 <div id="home">
 {% for a in site.categories %}
-<p class="p-category-list">{{ a | first }}</p>
-<div class="div-main">
-      <div class="div-main-content">
-      <p class="p-category-list">{{ site.categories }}</p>
-      <h1>{{ page.title }}</h1>
-      <div class="div-main-text">
-      </div>
-      </div>
-      </div>
+<p class="p-category-list">{{ a }}</p>
+  
+  
+  
+
 {% endfor %}
 <p>site.categories :: {{ site. categories }}</p>
 </div>
