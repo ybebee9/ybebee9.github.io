@@ -2,8 +2,8 @@
 layout: default
 ---
 <div id="home">
-{% for a in site.categories %}
-<p class="p-category-list">{{ a }}</p>
+{% for item in site.categories %}
+<p class="p-category-list">{{ item | first }}</p>
   
   
   
