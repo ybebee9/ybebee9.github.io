@@ -10,11 +10,11 @@ layout: default
 
 {% endfor %}
 
-{% for a in site.posts.title %}
-<p>헤헤{{ a | first }}a</p>
+{% for a in site.posts %}
+<p>헤헤{{ a.title }}a</p>
 {% endfor %}
   
-<p>site.categories >> {{ site. categories }}</p>
+<p>site.categories >: {{ site. categories }}</p>
 </div>
 
 
