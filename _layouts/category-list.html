@@ -7,7 +7,7 @@ layout: default
 
 {% for a in site.posts %}
 <p>a.title :: {{ a. title}}</p>
-{% if a.categories == item %}
+{% if a.categories == item | first %}
 
 <p>3 :: {{ a.title }}</p>
 
