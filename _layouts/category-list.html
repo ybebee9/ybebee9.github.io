@@ -6,6 +6,7 @@ layout: default
 <p class="p-category-list">{{ item | first }}</p>
 
 {% for a in site.posts %}
+<p>a.title :: {{ a. title}}</p>
 {% if a.categories == item %}
 
 <p>3 :: {{ a.title }}</p>
