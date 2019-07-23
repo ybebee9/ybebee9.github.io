@@ -6,14 +6,16 @@ layout: default
 <p class="p-category-list">{{ a | first }}</p>
 <div class="div-main">
       <div class="div-main-content">
-      <p class="p-category-list">나왔냐{{ page.categories }}</p>
+      <p class="p-category-list">{{ page.categories }}</p>
       <h1>{{ page.title }}</h1>
       <div class="div-main-text">
       </div>
       </div>
       </div>
 {% endfor %}
-<p>빼애애앰{{ site. categories }}</p>
+<p>site.categories :: {{ site. categories }}</p>
+<p>page.categories :: {{ page. categories }}</p>
+<p>post.categories :: {{ post. categories }}</p>
 </div>
 
 
