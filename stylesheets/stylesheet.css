@@ -963,3 +963,10 @@ box-shadow: 0 0 0 0, 0 6px 12px rgba(34,34,34,0.1);
  font-weight: bold;
  margin-bottom: 10px;
 }
+
+/* 2019.07.24 ybebee9 */
+.p-category-title{
+ color: #292929;
+ font-size: 45px;
+ font-weight: bold;
+}
