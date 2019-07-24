@@ -7,26 +7,6 @@ layout: default
 {% for item in site.categories %}
 <p class="p-category-list">{{ item | first }}</p>
 
-{% assign category_name = category | first %}
-
-{% for page in site.categories[category_name] %}
-{% assign has_categories = true %}
-
-<h2>gg : {{ page.title }}</h2>
-
-
-{% for a in site.posts %}
-
-<h2>z : {{ a. title}}</h2>
-{% if a.categories == item | first %}
-
-<p>3 :: {{ a.title }}</p>
-
-{% endif %}
-
-{% endfor %}
-  
-
 {% endfor %}
 
 
