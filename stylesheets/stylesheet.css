@@ -909,19 +909,19 @@ box-shadow: 0 0 0 0, 0 6px 12px rgba(34,34,34,0.1);
   border-radius: 50%;
 }
 
-/* 2019.07.11 ybebee9 add */
+/* 2019.07.11 ybebee9 */
 ::-moz-selection { /* Code for Firefox */
   color: #ffffff;
   background: #8565fc;
 }
 
-/* 2019.07.11 ybebee9 add  */
+/* 2019.07.11 ybebee9 */
 ::selection {
   color: #ffffff;
   background: #8565fc;
 }
 
-/* 2019.07.12 ybebee9 add*/
+/* 2019.07.12 ybebee9 */
 .section-category{
   max-width: 20%;
   float: left;
@@ -929,19 +929,19 @@ box-shadow: 0 0 0 0, 0 6px 12px rgba(34,34,34,0.1);
   top:0;
 }
 
-/* 2019.07.12 ybebee9 add */
+/* 2019.07.12 ybebee9 */
 .section-post{
   max-width: 80%;
   float: right;
 }
 
-/* 2019.07.12 ybebee9 add */
+/* 2019.07.12 ybebee9 */
 .li-category{
   font-weight: bold;
   font-size: 25px;
 }
 
-/* 2019.07.12 ybebee9 add */
+/* 2019.07.12 ybebee9 */
 .p-category{
  color: #ae81ff;
  font-size: 25px;
@@ -949,14 +949,14 @@ box-shadow: 0 0 0 0, 0 6px 12px rgba(34,34,34,0.1);
  margin-bottom: 10px;
 }
 
-/* 2019.07.22 ybebee9 add */
+/* 2019.07.22 ybebee9 */
 .section-category-list{
   max-width: 80%;
   float: left;
 }
 
 
-/* 2019.07.22 ybebee9 add */
+/* 2019.07.22 ybebee9 */
 .p-category-list{
  color: #9f6afd;
  font-size: 45px;
