@@ -5,7 +5,7 @@ layout: default
 <p class="p-category-title">category 기능 작업중(미완성 상태)</p>
 
 {% for item in site.categories %}
-{% assign categorynm = item %}
+{% assign categorynm = item | first%}
 <p class="p-category-list">{{ item | first }}</p>
 <h2>test :: {{ categorynm }}</h2>
 
