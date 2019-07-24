@@ -7,7 +7,12 @@ layout: default
 {% for item in site.categories %}
 {% assign category_name = item | first%}
 <p class="p-category-list">{{ item | first }}</p>
-<h2>category_name :: {{ category_name }}</h2>
+
+{% for page in site.categories[category_name] %}
+
+<h2>page title :: {{ page.title }}</h2>
+
+{% endfor %}
 
 {% endfor %}
 
