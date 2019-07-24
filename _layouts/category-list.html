@@ -3,7 +3,16 @@ layout: default
 ---
 <div id="home">
 {% for item in site.categories %}
+
 <p class="p-category-list">{{ item | first }}</p>
+
+
+{% assign category_name = category | first %}
+
+{% for page in site.categories[category_name] %}
+{% assign has_categories = true %}
+
+<h2>{{ page.title }}</h2>
 
 
 {% for a in site.posts %}
