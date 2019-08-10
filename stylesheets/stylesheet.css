@@ -971,3 +971,8 @@ box-shadow: 0 0 0 0, 0 6px 12px rgba(34,34,34,0.1);
  font-size: 45px;
  font-weight: bold;
 }
+
+/* 2019.08.10 ybebee9 */
+.a-category-list{
+  color: #000000;
+}
