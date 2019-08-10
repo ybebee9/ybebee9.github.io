@@ -15,19 +15,19 @@ categories: GitCustomizing
 <br>
 <br>
 <br>
-![img01](./images/post/selectionCss/01.png)  
+![img01]({{ site.baseurl }}/images/post/selectionCss/01.png)  
 * 적용 전 드래그 색  
 <br>
 <br>
 <br>
 <br>
-![img02](./images/post/selectionCss/02.png)  
+![img02]({{ site.baseurl }}/images/post/selectionCss/02.png)  
 * [W3School에서 발견한 Selection 예제](https://www.w3schools.com/howto/howto_css_text_selection.asp)
 <br>
 <br>
 <br>
 <br>
-![img03](./images/post/selectionCss/03.png)  
+![img03]({{ site.baseurl }}/images/post/selectionCss/03.png)  
 * 적용 완료. 넘나 예뿌당  
 <br>
 <br>
