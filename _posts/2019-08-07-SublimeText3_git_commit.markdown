@@ -25,7 +25,7 @@ categories: Editor
 <br>
 <br>
 ![img03](./images/post/sublimetext-git-commit/03.PNG)
-* Ctrl + S 를 눌러서 파일을 저장한다. 
+* **Ctrl + S** 를 눌러서 파일을 저장한다. 
 <br>
 <br>
 <br>
@@ -37,7 +37,7 @@ categories: Editor
 <br>
 <br>
 ![img05](./images/post/sublimetext-git-commit/05.PNG)
-* ** Ctrl + Shift + p ** 눌러서 Git Add Current File을 검색한 후 Enter.
+* **Ctrl + Shift + p** 눌러서 Git Add Current File을 검색한 후 Enter.
 <br>
 <br>
 <br>
@@ -49,7 +49,7 @@ categories: Editor
 <br>
 <br>
 ![img07](./images/post/sublimetext-git-commit/07.PNG)
-* ** Ctrl + Shift + p ** 눌러서 Git Commit을 검색한 후 Enter.
+* **Ctrl + Shift + p** 눌러서 Git Commit을 검색한 후 Enter.
 <br>
 <br>
 <br>
@@ -73,7 +73,7 @@ categories: Editor
 <br>
 <br>
 ![img11](./images/post/sublimetext-git-commit/11.PNG)
-*  ** Ctrl + Shift + p ** 눌러서 Git Push 검색한 후 Enter. Push가 완료되면 콘솔창에 메세지가 출력된다.
+*  **Ctrl + Shift + p** 눌러서 Git Push 검색한 후 Enter. Push가 완료되면 콘솔창에 메세지가 출력된다.
 <br>
 <br>
 <br>
@@ -109,7 +109,7 @@ categories: Editor
 <br>
 <br>
 ![img17](./images/post/sublimetext-git-commit/17.PNG)
-* ** Ctrl + Shift + p ** 눌러서 Git Pull Current Branch 클릭
+* **Ctrl + Shift + p** 눌러서 Git Pull Current Branch 클릭
 <br>
 <br>
 <br>
