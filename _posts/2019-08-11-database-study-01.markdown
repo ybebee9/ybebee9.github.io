@@ -5,7 +5,6 @@ date:   2019-08-11
 categories: Database
 ---
 <br>
-<br>
 ## 1.1.1 구조적, 집합적, 선언적 질의언어<br>
 <br>
 ### SQL<br>
