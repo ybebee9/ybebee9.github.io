@@ -92,7 +92,7 @@ SQL옵티마이저는 대부분 좋은 선택을 하지만, 완벽하진 않다.
 
 ```sql
 SELECT	/*+ INDEX(A 고객_PK) */
-		고객명, 연락처, 주소, 가입일시
+        고객명, 연락처, 주소, 가입일시
 FROM	고객 A
 WHERE	고객ID = '000000008';
 ```
@@ -104,7 +104,7 @@ WHERE	고객ID = '000000008';
 ```sql
 -- 비추천
 SELECT 	--+ INDEX(A 고객_PK)
-		고객명, 연락처, 주소, 가입일시
+        고객명, 연락처, 주소, 가입일시
 FROM	고객 A
 WHERE	고객ID = '000000008';
 ```
@@ -117,8 +117,8 @@ WHERE	고객ID = '000000008';
 1. 힌트 안에 인자를 나열할 땐 ','(콤마)를 사용할 수 있지만, 힌트와 힌트 사이에 사용하면 안된다.<br>
   
 ```sql
-/*+ INDEX(A A_X01) INDEX(B, B_X03) */	→ 모두 유효
-/*+ INDEX(C), FULL(D) */	 → 첫 번째 힌트만 유효
+/*+ INDEX(A A_X01) INDEX(B, B_X03) */   → 모두 유효
+/*+ INDEX(C), FULL(D) */                → 첫 번째 힌트만 유효
 ```
   
   
@@ -133,7 +133,7 @@ FROM 	EMP
 3. FROM 절 테이블명 옆에 ALIAS를 지정했다면, 힌트에도 반드시 ALIAS를 사용해야한다. FROM절에 ALIAS를 지정했는데 힌트에는 아래와 같이 테이블명을 사용하면, 그 힌트는 무시된다.<br>
   
 ```sql
-SELECT /*+ FULL(EMP) */	→ 무효 
+SELECT /*+ FULL(EMP) */ → 무효 
 FROM	EMP E
 ```
   
@@ -144,7 +144,7 @@ FROM	EMP E
   
 ```sql
 SELECT	/*+ INDEX(A (주문일자)) */
-		A.주문번호, A.주문금액, B.고객명, B.연락처, B.주소
+        A.주문번호, A.주문금액, B.고객명, B.연락처, B.주소
 FROM	주문 A, 고객 B
 WHERE	A.주문일자 = :ORD_DT
 AND		A.고객ID = B.고객ID
