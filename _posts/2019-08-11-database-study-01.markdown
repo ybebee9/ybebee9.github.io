@@ -3,7 +3,7 @@ layout: post
 title:  "1.1 SQL 파싱과 최적화"
 date:   2019-08-11
 categories: Database
----
+---  
   
 ## 1.1.1 구조적, 집합적, 선언적 질의언어<br>
   
@@ -20,9 +20,9 @@ categories: Database
 ### SQL최적화  
 * DBMS 내부에서 프로시저를 작성하고 컴파일해서 실행 가능한 상태로 만드는 전 과정을 'SQL 최적화'라고 한다.<br>
 ---
-<br>
-<br>
-## 1.1.2 SQL 최적화<br>
+  
+  
+## 1.1.2 SQL 최적화
 최적화 과정을 세분화 하면 'SQL파싱 - SQL 최적화 - 로우 소스 생성' 3단계로 나눌 수 있다.<br>
   
 ---
