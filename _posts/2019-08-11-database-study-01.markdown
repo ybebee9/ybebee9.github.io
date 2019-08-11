@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "SQL 파싱과 최적화"
-date:   2019-08-011
+date:   2019-08-11
 categories: Database
 ---
 
