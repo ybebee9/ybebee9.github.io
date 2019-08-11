@@ -89,19 +89,12 @@ SQL옵티마이저는 대부분 좋은 선택을 하지만, 완벽하진 않다.
 이럴 때 옵티마이저 힌트를 이용해 데이터 액세스 경로를 바꿀 수 있다.<br>
   
 
-```{.sql}
+```sql
 SELECT 	/*+ INDEX(A 고객_PK) */  
 		고객명, 연락처, 주소, 가입일시  
 FROM	고객 A  
 WHERE	고객ID = '000000008';  
 ```
-
-```javascript
-var test = Function(){
-	console.log(a);
-}
-```
-
   
 <br>
 <br>
