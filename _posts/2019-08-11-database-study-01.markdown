@@ -11,11 +11,11 @@ categories: Database
 * 'Structured Query Language'의 줄임말로 구조적 질의 언어다.<br>
 * 기본적으로 구조적(Structured)이고 집합적(set-based)이고 선언적(declarative)인 질의 언어다.<br>
 <br>
----  
+---
 ### SQL 옵티마이저<br>
 * 프로시저를 만들어 내는 DBMS 내부 엔진이 바로 SQL 옵티마이저이며, 프로그래밍을 대신 해주는 셈이다.<br>
 <br>
----  
+---
 ### SQL최적화<br>
 * DBMS 내부에서 프로시저를 작성하고 컴파일해서 실행 가능한 상태로 만드는 전 과정을 'SQL 최적화'라고 한다.<br>
 <br>
