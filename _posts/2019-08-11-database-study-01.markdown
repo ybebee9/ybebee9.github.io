@@ -209,7 +209,7 @@ AND     A.고객ID = B.고객ID
 <br>
 ![img01]({{ site.baseurl }}/images/post/sqlTuning/book/bookCover.PNG)<br>
 <br>
-본 포스팅은 친절한 SQL 튜닝 책을 공부하여 작성한 내용입니다.<br>
+본 포스팅은 친절한 SQL 튜닝 온라인 스터디를 진행하면서 공부한 내용을 바탕으로 작성하였습니다.<br>
 <br>
 <br>
 <br>
