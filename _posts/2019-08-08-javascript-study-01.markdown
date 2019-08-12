@@ -5,7 +5,6 @@ date:   2019-08-12
 categories: JavaScript
 ---  
 <br>
-
 ## 자바스크립트 기본타입
 
 자바스크립트의 기본타입은 숫자, 문자열, boolean, null, undefined 타입이 있다. 
