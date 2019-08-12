@@ -1,6 +1,6 @@
 .highlight  { }
 .highlight .c { color: #75715e; font-style: italic } /* Comment */
-.highlight .err { color: #960050; } /* Error */
+.highlight .err { color: #f8f8f2; } /* Error */
 .highlight .k { color: #66d9ef; } /* Keyword */
 .highlight .o { color: #f92672; font-weight: bold } /* Operator */
 .highlight .cm { color: #75715e; font-style: italic } /* Comment.Multiline */
