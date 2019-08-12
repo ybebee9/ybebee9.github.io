@@ -24,8 +24,6 @@ SQL파싱, 최적화, 로우 소스 생성 과정을 거쳐 생성한 내부 프
 <br>
 <br>
 <br>
-<br>
-<br>
 
 ## 1.2.2 바인드 변수의 중요성
 ---
@@ -63,11 +61,9 @@ create procedure LOGIN (login_id in varchar2) { ... }
 <br>
 <br>
 <br>
-<br>
 ![img01]({{ site.baseurl }}/images/post/sqlTuning/book/bookCover.PNG)<br>
 <br>
 본 포스팅은 친절한 SQL 튜닝 온라인 스터디를 진행하면서 공부한 내용을 바탕으로 작성하였습니다.<br>
-<br>
 <br>
 <br>
 <br>
