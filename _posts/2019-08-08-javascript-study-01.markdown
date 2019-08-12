@@ -91,14 +91,3 @@ str[0]='T';
 console.log(str);
 ```
 
-
-
-```javascript
-// 출력결과
-
-```
-
-
-
-
-
