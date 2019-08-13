@@ -2,7 +2,7 @@
 layout: post
 title:  "1.2 SQL 공유 및 재사용"
 date:   2019-08-12
-categories: Database
+categories: SQL튜닝
 ---  
 ## 1.2.1 소프트 파싱 vs 하드 파싱
 ---
