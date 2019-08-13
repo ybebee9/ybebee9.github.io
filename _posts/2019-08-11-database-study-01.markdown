@@ -2,7 +2,7 @@
 layout: post
 title:  "1.1 SQL 파싱과 최적화"
 date:   2019-08-11
-categories: Database
+categories: SQL튜닝
 ---  
 ## 1.1.1 구조적, 집합적, 선언적 질의언어<br>
   
