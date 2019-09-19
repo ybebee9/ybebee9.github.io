@@ -2,7 +2,7 @@
 layout: post
 title:  "드래그 색 바꾸기(Selection CSS)"
 date:   2019-07-11
-categories: GitCustomizing
+categories: Git
 ---
 <br>
 <br>
