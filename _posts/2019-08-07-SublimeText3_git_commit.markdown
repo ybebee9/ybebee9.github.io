@@ -2,7 +2,7 @@
 layout: post
 title:  "Sublime Text 3 - Git 파일 Commit & Push 하기"
 date:   2019-08-07
-categories: Editor
+categories: Git
 ---
 <br>
 <br>
