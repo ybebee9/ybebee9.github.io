@@ -50,7 +50,6 @@ number number string string boolean object undefined
 
 
 ### 1.숫자
-
 - 자바스크립트는 하나의 숫자형(number)만 존재한다.
 - 자바스크립트에서 모든 숫자를 64비트 부동 소수점 형태로 저장한다.
 - 자바스크립트에서는 정수형이 따로 없고, 모든 숫자를 실수로 처리한다(나눗셈 연산에 주의).
@@ -76,7 +75,6 @@ console.log(Math.floor(num));
 
 
 ### 2.문자열
-
 - 문자열은 작은 따옴표(')나 큰 따옴표(")로 생성한다.
 - 문자열은 문자 배열처럼 인덱스를 이용해서 접근할 수 있다.
 - 자바스크립트에서 한번 생성된 문자열은 읽기만 가능하지, 수정은 불가능하다.
@@ -90,4 +88,28 @@ console.log(str[0],str[1],str[2],str[3]);
 str[0]='T';
 console.log(str);
 ```
+<br>
+<br>
+<br>
+### 3. 불린값  
+- true와 false 값을 갖는 boolean 타입이 있다.  
+<br>
+<br>
 
+### 4. null과 undefined  
+- 두 타입 모두 '값이 비어있음'을 나타낸다.  
+- undefined : 값이 할당되지 않은 변수는 undefined 타입. undefined는 타입이자 값을 나타내는 것.  
+- null : 개발자가 명시적으로 값이 비어있음을 나타내는데 사용.  
+- null 타입 변수의 typeof 결과가 null이 아니라 object임. 따라서 자바스크립트에서는 null타입 변수인지를 확인할 때 typeof연산자를 사용하면 안되고, 일치 연산자(===)를 사용해서 변수의 값을 직접 확인해야함.  
+  
+```javascript
+// null 타입 변수 생성  
+var nullVar = null;
+
+console.log(typeof nullVar === null) // (출력값) false  
+console.log(nullVar === null);
+```
+  
+<br>
+<br>
+<br>
