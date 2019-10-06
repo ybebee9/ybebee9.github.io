@@ -27,7 +27,6 @@ console.log(add4); // string2
 ```
   
 <br>
-<br>
   
 ### typeof 연산자
   
@@ -37,15 +36,12 @@ console.log(add4); // string2
 불린값     'boolean'  
 null       'object'  
 undefined  'undefined'  
-  
 <br>
-  
 **참조타입**
 객체      'object'  
 배열      'object'  
 함수      'function'  
   
-<br>
 <br>
   
 ### == (동등) 연산자와 === (일치) 연산자
@@ -60,7 +56,6 @@ console.log(1 === '1'); //false
 
 ```
   
-<br>
 <br>
   
 ### !! 연산자  
