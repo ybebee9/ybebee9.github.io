@@ -980,3 +980,9 @@ box-shadow: 0 0 0 0, 0 6px 12px rgba(34,34,34,0.1);
 .a-category-list{
   color: #000000;
 }
+
+/* 2019.10.14 ybebee9 */
+.ul-category{
+  background-color: #e2e2e2a3;
+    height: 40px;
+}
