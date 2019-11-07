@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "[MSSQL] ISNULL(NULL값 체크 함수)"
+date:   2019-11-07
+categories: SQL
+---  
+  
+## ISNULL  
+  
+```sql
+ISNULL(컬럼, 컬럼이 NULL일 경우 대체할 값)
+```
+  
