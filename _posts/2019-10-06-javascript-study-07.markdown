@@ -64,16 +64,16 @@ console.log(1 === '1'); //false
 **!! 연산자 활용을 통한 boolean값 변환**
 ```javascript
 
-console.log(!!0);			// false
-console.log(!!1);			// true
+console.log(!!0);			    // false
+console.log(!!1);			    // true
 console.log(!!'string'); 	// true
-console.log(!!'');			// false
-console.log(!!true);		// true
-console.log(!!false);		// false
-console.log(!!null);		// false
-console.log(!!undefined);	// false
-console.log(!!{});			// true, 객체는 값이 비어있는 빈 객체라도 true로 변환되는것을 주의해야한다.
-console.log(!![1,2,3]);		// true  
+console.log(!!'');			  // false
+console.log(!!true);		  // true
+console.log(!!false);		  // false
+console.log(!!null);		  // false
+console.log(!!undefined); // false
+console.log(!!{});			  // true, 객체는 값이 비어있는 빈 객체라도 true로 변환되는것을 주의해야한다.
+console.log(!![1,2,3]);   // true  
 
 ```
   
