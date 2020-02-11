@@ -42,12 +42,6 @@ toString(), valueOf() 등과 같은 모든 객체에서 호출 가능한 자바�
   
   
   
-<br>
-<br>
-<br>
-![img01]({{ site.baseurl }}/images/post/javascript/InsideJavascript.PNG)<br>
-<br>
-본 포스팅은 인사이드 자바스크립트 책을 공부한 내용을 바탕으로 작성하였습니다.<br>
-<br>
-<br>
-<br>
+**Ref**  
+---  
+인사이드 자바스크립트
